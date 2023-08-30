@@ -1,5 +1,6 @@
 import React from 'react';
 import TopNav from '@/Components/TopNav';
+import MySlider from '@/Components/MySlider';
 const Home = () => {
     return (
         <>
@@ -16,6 +17,27 @@ const Home = () => {
                 </div>
 
             </div>
+
+            <h1>This is Heading</h1>
+        <div className='bg-[#EFEEFD] rounded-[10px] py-3'>
+          <div className='m-5'>
+
+            <div className='bg-white py-[10px] px-[50px]'>
+              <p className='font-medium text-xl inline'>Top rated</p>
+              <hr className='h-[3px] bg-black w-[80%] float-right mt-3' />
+            </div>
+
+            <hr />
+            <MySlider />
+            <div className='bg-white py-[10px] px-[50px]'>
+              <p className='font-medium text-xl inline'>Best in your area</p>
+              <hr className='h-[3px] bg-black w-[80%] float-right mt-3' />
+            </div>
+            <MySlider />
+
+          </div>
+        </div>
+
         </>
     )
 }
