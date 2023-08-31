@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNav from '@/Components/TopNav';
 import MySlider from '@/Components/MySlider';
+import DropDown from '@/Components/DropDown';
 const Home = () => {
     return (
         <>
@@ -19,6 +20,10 @@ const Home = () => {
             </div>
 
             <h1>This is Heading</h1>
+            <div className='h-[50px] w-[100%] flex justify-start items-center'>
+              <p className='text-lg mr-[50px]'>filter</p>
+              <DropDown/>
+            </div>
         <div className='bg-[#EFEEFD] rounded-[10px] py-3'>
           <div className='m-5'>
 

@@ -3,7 +3,9 @@ import MySlider from '@/Components/MySlider';
 import Head from 'next/head';
 import TopNav from '@/Components/TopNav';
 import Home from './Home/page';
-import Profile from './Profile/Profile';
+import Profile from './Profile/page';
+import Resources from './Resources/page';
+import DropDown from '@/Components/DropDown';
 
 const page = () => {
   return (
@@ -16,7 +18,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Profile/>
+        <Home/>
       </main>
 
     </>
