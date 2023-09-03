@@ -18,7 +18,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Home/>
+        <Profile/>
       </main>
 
     </>
