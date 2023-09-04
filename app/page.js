@@ -6,6 +6,7 @@ import Home from './Home/page';
 import Profile from './Profile/page';
 import Resources from './Resources/page';
 import DropDown from '@/Components/DropDown';
+import Login from './Login/page';
 
 const page = () => {
   return (
@@ -18,7 +19,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Profile/>
+        <Login/>
       </main>
 
     </>
