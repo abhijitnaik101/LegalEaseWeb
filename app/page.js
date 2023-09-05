@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import MySlider from '@/Components/MySlider';
 import Head from 'next/head';
@@ -7,6 +8,8 @@ import Profile from './Profile/page';
 import Resources from './Resources/page';
 import DropDown from '@/Components/DropDown';
 import Login from './Login/page';
+import Auth from './RealTDB/page';
+
 
 const page = () => {
   return (
@@ -19,7 +22,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Login/>
+        <Auth/>
       </main>
 
     </>
