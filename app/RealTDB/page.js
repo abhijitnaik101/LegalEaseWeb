@@ -5,7 +5,7 @@ import { app } from "../Firebase";
 
 const db = getDatabase(app);
 
-const Auth = () => {
+const RealTDB = () => {
 
     const putData = () => {
         console.log('putData called');
@@ -24,4 +24,4 @@ const Auth = () => {
     )
 }
 
-export default Auth
+export default RealTDB;

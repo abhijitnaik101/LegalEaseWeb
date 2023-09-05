@@ -14,7 +14,7 @@ const TopNav = () => {
                             <button type="submit"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
-                    <div class="links" className='w-[40%] bg-[#6355FF] flex justify-evenly p-[5px]'>
+                    <div className='w-[40%] bg-[#6355FF] flex justify-evenly p-[5px]'>
                         <a class="active" href="#home" className='text-white'>Home</a>
                         <a href="#about" className='text-white'>About</a>
                         <a href="#contact" className='text-white'>Resources</a>
