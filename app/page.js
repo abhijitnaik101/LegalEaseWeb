@@ -9,6 +9,7 @@ import Resources from './Resources/page';
 import DropDown from '@/Components/DropDown';
 import Login from './Login/page';
 import Auth from './Auth/page';
+import SignIn from './SignIn/page';
 
 
 
@@ -23,7 +24,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Login/>
+        <SignIn/>
       </main>
 
     </>
