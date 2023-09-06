@@ -24,7 +24,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <SignIn/>
+        <Home/>
       </main>
 
     </>
