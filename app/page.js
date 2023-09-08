@@ -24,7 +24,7 @@ const page = () => {
         <TopNav />
       </nav>
       <main>
-        <Home/>
+      <Home/>
       </main>
 
     </>

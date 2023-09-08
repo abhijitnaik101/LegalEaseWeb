@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 const TopNav = () => {
     return (
@@ -15,11 +16,11 @@ const TopNav = () => {
                         </form>
                     </div>
                     <div className='w-[40%] bg-[#6355FF] flex justify-evenly p-[5px]'>
-                        <a class="active" href="#home" className='text-white'>Home</a>
-                        <a href="#about" className='text-white'>About</a>
-                        <a href="#contact" className='text-white'>Resources</a>
-                        <a href="#contact" className='text-white'>News</a>
-                        <a href="#contact" className='text-white'>Feedback</a>
+                        <Link class="active" href="#home" className='text-white'>Home</Link>
+                        <Link href="#about" className='text-white'>About</Link>
+                        <Link href="#contact" className='text-white'>Resources</Link>
+                        <Link href="#contact" className='text-white'>News</Link>
+                        <Link href="#contact" className='text-white'>Feedback</Link>
                     </div>
                 </div>
             </nav>

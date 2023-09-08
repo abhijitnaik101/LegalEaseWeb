@@ -31,11 +31,11 @@ function MySlider() {
 
     return (
         <>
-            <div className=''>
-                <button onClick={scrollLeft} className='bg-white hover:bg-slate-200 p-[10px] rounded-full m-[3px]'>
+            <div className='py-[5px] px-[20px]'>
+                <button onClick={scrollLeft} className='bg-blue-200 hover:bg-slate-200 p-[10px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretLeft />
                 </button>
-                <button onClick={scrollRight} className='bg-white hover:bg-slate-200 p-[10px] rounded-full m-[3px]'>
+                <button onClick={scrollRight} className='bg-blue-200 hover:bg-slate-200 p-[10px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretRight />
                 </button>
             </div>

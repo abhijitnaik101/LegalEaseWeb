@@ -2,6 +2,11 @@ import React from 'react';
 import TopNav from '@/Components/TopNav';
 import MySlider from '@/Components/MySlider';
 import DropDown from '@/Components/DropDown';
+import Res from './res';
+import Ho from './log';
+import SliderLaw from './lawyers';
+import ContactUS from './contact';
+
 const Home = () => {
     return (
         <>
@@ -41,8 +46,12 @@ const Home = () => {
             <MySlider />
 
           </div>
+          
         </div>
-
+        <Ho/>
+        <Res/>
+        <SliderLaw/>
+        <ContactUS/>
         </>
     )
 }
