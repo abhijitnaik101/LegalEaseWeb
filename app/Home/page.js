@@ -6,8 +6,13 @@ import Res from './res';
 import Ho from './log';
 import SliderLaw from './lawyers';
 import ContactUS from './contact';
+import Info from './info';
 
 const Home = () => {
+  
+  const data = [
+    { img: "/legalease.jpg" },
+]
     return (
         <>
             <div className='bg-[#EFEEFD] w-[100%] rounded-[20px] p-[30px] my-10'>
@@ -48,9 +53,10 @@ const Home = () => {
           </div>
           
         </div>
-        <Ho/>
+        <Ho img={'/legalease.jpg'}/>
         <Res/>
         <SliderLaw/>
+        <Info/>
         <ContactUS/>
         </>
     )

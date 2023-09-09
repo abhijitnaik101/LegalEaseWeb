@@ -7,19 +7,19 @@ const Res = () => {
                 <div className='flex h-[100%]'>
                     <div className='h-[100%] w-[40%] flex justify-center items-center'>
                         <div className='h-[85%] w-[85%] flex flex-wrap justify-evenly items-center'>
-                        <div className='h-[45%] w-[45%] bg-green-100 rounded-[10px] p-[20px] shadow-lg'>
+                        <div className='h-[45%] w-[45%] bg-gradient-to-r from-lime-300 to-green-300 rounded-[10px] p-[30px] shadow-lg'>
                             <h1 className='font-bold pb-[5px] text-[20px]'>Fundamental Rights</h1>
                             <p className='text-[15px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
                         </div>
-                        <div className='h-[45%] w-[45%] bg-pink-100 rounded-[10px] p-[20px] shadow-lg'>
+                        <div className='h-[45%] w-[45%] bg-gradient-to-r from-pink-300 to-red-300 rounded-[10px] p-[30px] shadow-lg'>
                             <h1 className='font-bold pb-[5px] text-[20px]'>Fundamental Rights</h1>
                             <p className='text-[15px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
                         </div>
-                        <div className='h-[45%] w-[45%] bg-purple-100 rounded-[10px] p-[20px] shadow-lg'>
+                        <div className='h-[45%] w-[45%] bg-gradient-to-r from-purple-300 to-violet-300 rounded-[10px] p-[30px] shadow-lg'>
                             <h1 className='font-bold pb-[5px] text-[20px]'>Fundamental Rights</h1>
                             <p className='text-[15px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
                         </div>
-                        <div className='h-[45%] w-[45%] bg-blue-100 rounded-[10px] p-[20px] shadow-lg'>
+                        <div className='h-[45%] w-[45%] bg-gradient-to-r from-blue-300 to-cyan-300 rounded-[10px] p-[30px] shadow-lg'>
                             <h1 className='font-bold pb-[5px] text-[20px]'>Fundamental Rights</h1>
                             <p className='text-[15px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem psum</p>
                         </div>

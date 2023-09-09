@@ -18,6 +18,7 @@ function MySlider() {
         { img: "/img3.jpg" },
         { img: "/img4.jpg" },
         { img: "/img5.jpg" },
+        { img: "/legalease.jpg" },
     ]
 
     
@@ -31,14 +32,17 @@ function MySlider() {
 
     return (
         <>
+            <div className='w-[100%] flex justify-center items-centerr'>
             <div className='py-[5px] px-[20px]'>
-                <button onClick={scrollLeft} className='bg-blue-200 hover:bg-slate-200 p-[10px] rounded-full m-[3px] shadow-lg'>
+                <button onClick={scrollLeft} className=' hover:bg-slate-200 p-[20px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretLeft />
                 </button>
-                <button onClick={scrollRight} className='bg-blue-200 hover:bg-slate-200 p-[10px] rounded-full m-[3px] shadow-lg'>
+                <button onClick={scrollRight} className=' hover:bg-slate-200 p-[20px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretRight />
                 </button>
             </div>
+            </div>
+            
             <div id='content' className='carousel scroll-smooth p-4 flex items-center justify-start overflow-x-auto relative scrollbar-hide'>
             {data.map( (element, index) => <Card key={index} img={element.img} />)}
             </div>
