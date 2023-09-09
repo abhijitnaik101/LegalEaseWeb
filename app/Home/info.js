@@ -10,20 +10,23 @@ const Info = () => {
             </div>
 
             <div className='flex justify-evenly py-[20px] '>
-                <div className='bg-white shadow-md rounded-[15px] h-[500px] flex flex-col items-center border-black border-[2px] w-[25%] p-[30px]'>
+                <div className='border-[1px] shadow-lg rounded-[15px] h-[500px] flex flex-col items-center w-[25%] p-[30px]'>
                     <div className='h-[140px] w-[40%] bg-red-300'></div>
                     <h1 className='text-[30px] font-bold py-[20px]'>Heading</h1>
                     <p className='text-[20px] px-[10px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum vLorem ipsum</p>
                 </div>
-                <div className='bg-white shadow-md rounded-[15px] h-[500px] flex flex-col items-center border-black border-[2px] w-[25%] p-[30px]'>
+                <div className='border-[1px] bg-white shadow-lg rounded-[15px] h-[500px] flex flex-col items-center w-[25%] p-[30px]'>
                 <div className='h-[140px] w-[40%] bg-red-300'></div>
                     <h1 className='text-[30px] font-bold py-[20px]'>Heading</h1>
                     <p className='text-[20px] px-[10px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum vLorem ipsum</p>
                 </div>
-                <div className='bg-white shadow-md rounded-[15px] h-[500px] flex flex-col items-center border-black border-[2px] w-[25%] p-[30px]'>
+                <div className='border-[1px] bg-white shadow-lg rounded-[15px] h-[500px] flex flex-col items-center w-[25%] p-[30px]'>
                 <div className='h-[140px] w-[40%] bg-red-300'></div>
                     <h1 className='text-[30px] font-bold py-[20px]'>Heading</h1>
-                    <p className='text-[20px] px-[10px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum vLorem ipsum</p>
+                    <p className='text-[20px] px-[10px]'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum vLorem ipsum
+                
+
+                    </p>
                 </div>
             </div>
         </div>

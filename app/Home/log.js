@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React from 'react';
 
 const Ho = ({props}) => {
@@ -15,14 +16,17 @@ const Ho = ({props}) => {
                     <h1 className='text-[50px] font-bold'>LegalEase</h1>
                     <p className='text-[20px] w-[80%]'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
                     <div className='w-[250px] ml-[50%] flex justify-evenly'>
-                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>Log in</button>
-                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>Get app</button>
+                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
+                        <Link href="/SignIn" className='text-white'>Log in</Link>
+                        </button>
+                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
+                        <Link href="/" className='text-white'>Get app</Link>
+                        </button>
                     </div>
                 </div>
-                <div className='bg-red-400 w-[40%] ' src={props} alt="dp">
-                    
+                <div className='w-[40%]' src='/legalease.jpg' alt="dp">
+                <img className='h-[100%] w-[100%] object cover rounded-xl inline' src='/legalease.jpg' alt="dp" />
                 </div>
-
             </div>
         </>
     );
