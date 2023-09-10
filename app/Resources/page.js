@@ -4,7 +4,9 @@ import Basicrights from '@/app/Resources/Articles/Basicrights';
 const Resources = () => {
     return (
         <>
-            
+
+            <>
+            </>
             <div className='flex justify-evenly mt-[20px]'>
                 <div className='w-[330px] h-[800px] mr-[10px] flex justify-start align-top border-solid border-[2px] rounded-[15px]'>
                     <div className='px-[40px] py-[60px] text-black font-medium'>

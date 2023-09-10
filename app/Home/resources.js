@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Res = () => {
@@ -31,8 +32,8 @@ const Res = () => {
                                 Resources
                             </h1>
                             <p className='py-[20px] text-[20px] font-medium'>Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre Lorem ipsum setre </p>
-                            <button className='px-[10px] py-[5px] w-[200px] h-[50px] mt-[90px] rounded-[10px] bg-blue-500 text-lg text-white'>
-                                View Resources
+                            <button className='px-[10px] py-[5px] w-[200px] h-[50px] mt-[90px] rounded-[10px] bg-blue-500 hover:bg-blue-600 text-lg text-white'>
+                                <Link href='/Resources'>View Resources</Link>
                             </button>
                         </div>
                     </div>

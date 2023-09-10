@@ -40,9 +40,8 @@ const SignIn = () => {
     if(user==null){
         return (
             <>
-                <div>Sign in page</div>
-                <div className='h-screen w-[100%] flex justify-center items-center'>
-                    <div className='right flex items-center justify-center mx-auto flex-col bg-white p-8 border-[2px] rounded-xl w-1/4'>
+                <div className='bg-slate-100 h-screen w-[100%] flex justify-center items-center'>
+                    <div className='h-[500px] flex items-center justify-center mx-auto flex-col bg-white p-8 border-[2px] rounded-xl w-1/4'>
                         <div className='flex flex-col items-start'>
                             <div className=''>Email</div>
                             <input onChange={e => setEmail(e.target.value)} value={email} className='px-4 h-12 my-2 border border-1 border-gray-200 rounded-lg' type='email' required placeholder='Email address' />

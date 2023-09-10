@@ -34,10 +34,10 @@ function MySlider() {
         <>
             <div className='w-[100%] flex justify-center items-centerr'>
             <div className='py-[5px] px-[20px]'>
-                <button onClick={scrollLeft} className=' hover:bg-slate-200 p-[20px] rounded-full m-[3px] shadow-lg'>
+                <button onClick={scrollLeft} className=' hover:bg-slate-100 p-[20px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretLeft />
                 </button>
-                <button onClick={scrollRight} className=' hover:bg-slate-200 p-[20px] rounded-full m-[3px] shadow-lg'>
+                <button onClick={scrollRight} className=' hover:bg-slate-100 p-[20px] rounded-full m-[3px] shadow-lg'>
                     <AiOutlineCaretRight />
                 </button>
             </div>

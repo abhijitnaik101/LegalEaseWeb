@@ -16,11 +16,11 @@ const Ho = ({props}) => {
                     <h1 className='text-[50px] font-bold'>LegalEase</h1>
                     <p className='text-[20px] w-[80%]'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
                     <div className='w-[250px] ml-[50%] flex justify-evenly'>
-                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
+                        <button className='bg-blue-500 hover:bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
                         <Link href="/SignIn" className='text-white'>Log in</Link>
                         </button>
-                        <button className='bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
-                        <Link href="/" className='text-white'>Get app</Link>
+                        <button className='bg-white hover:border-black rounded-[10px] border-slate-400 border-[2px] px-[20px] py-[10px] text-white font-medium'>
+                        <Link href="/" className='text-black'>Get app</Link>
                         </button>
                     </div>
                 </div>
