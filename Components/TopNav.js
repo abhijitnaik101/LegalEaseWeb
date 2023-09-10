@@ -1,7 +1,10 @@
+"use client"
 import Link from 'next/link';
 import React from 'react';
 import Profile from './profile';
+
 const TopNav = () => {
+
     return (
         <>
             <nav className='sticky top-0'>
@@ -17,11 +20,12 @@ const TopNav = () => {
                         </form>
                     </div>
                     <div className='w-[40%] flex justify-evenly items-center p-[5px]'>
-                        <Link class="active" href="/Home" className='text-white'>Home</Link>
-                        <Link href="/" className='text-white'>About</Link>
-                        <Link href="/Resources" className='text-white'>Resources</Link>
-                        <Link href="/" className='text-white'>News</Link>
-                        <Link href="/" className='text-white'>Feedback</Link>
+
+                        <Link href='/Home' className='text-white'>Home</Link>
+                        <Link href='/Profile' className='text-white'>Profile</Link>
+                        <Link href='/Resources' className='text-white'>Resources</Link>
+                        <Link href='/' className='text-white'>News</Link>
+                        <Link href='/' className='text-white'>Feedback</Link>
                         <Profile/>
                     </div>
                 </div>

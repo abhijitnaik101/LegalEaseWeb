@@ -11,6 +11,7 @@ import Auth from './Auth/page';
 import SignIn from './SignIn/page';
 import Storage from './Storage/page';
 import SelectMenu from '@/Components/SelectMenu';
+import CivilPage from './Resources/Articles/Civil';
 
 
 
@@ -23,7 +24,7 @@ const page = () => {
       </Head>
       
       <main className='bg-slate-50'>
-      <Home/>
+       <Home/>
       </main>
 
     </>

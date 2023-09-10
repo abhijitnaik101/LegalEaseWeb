@@ -5,7 +5,7 @@ import Basicrights from '@/app/Resources/Articles/Basicrights';
 
 import Civil from './Articles/Civil';
 
-const Resources = () => {
+const pageCivil = () => {
 
     return (
         <>
@@ -30,10 +30,10 @@ const Resources = () => {
                 </div>
                 <div className='bg-slate-300 w-[2px] h-[800px]'></div>
                 <div className='w-[66%] h-[800px] ml-[10px] overflow-y-auto rounded-[15px]'>
-                    <Basicrights/>
+                    <Civil/>
                 </div>
             </div>
         </>
     )
 }
-export default Resources
+export default pageCivil

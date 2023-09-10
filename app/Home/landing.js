@@ -14,7 +14,7 @@ const Ho = ({props}) => {
                 <div className='rounded-full h-[200px] w-[200px] bg-pink-500 shadow-2xl absolute filter blur-3xl opacity-50 -z-10 bottom-[10px] right-[70px]'></div>
                 <div className='rounded-full h-[200px] w-[200px] bg-purple-500 shadow-2xl absolute filter blur-3xl opacity-50 -z-10 top-[10px]'></div>
                     <h1 className='text-[50px] font-bold'>LegalEase</h1>
-                    <p className='text-[20px] w-[80%]'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                    <p className='text-[20px] w-[80%]'>Constitutions play a crucial role in providing a legal and political framework for governance, protecting individual rights, and ensuring the rule of law. They are typically regarded as the highest and most enduring legal documents within a nation or organization.</p>
                     <div className='w-[250px] ml-[50%] flex justify-evenly'>
                         <button className='bg-blue-500 hover:bg-blue-600 rounded-[10px] border-black border-[0px] px-[20px] py-[10px] text-white font-medium'>
                         <Link href="/SignIn" className='text-white'>Log in</Link>
